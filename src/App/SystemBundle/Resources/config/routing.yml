@@ -1,0 +1,6 @@
+app_system_homepage:
+      path: /system
+      defaults: { _controller: SystemBundle:Default:index }
+app_system_upload:
+       path: /upload
+       defaults: { _controller: SystemBundle:Default:upload }

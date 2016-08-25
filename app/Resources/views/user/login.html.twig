@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}登录{% endblock %}
+{%block body%}
+   <h1>用户登录</h1>
+   
+   <form method="post" action="/login">
+    用户名：<input type="text" class="text" name="username"/>
+    密码：<input type="password" class="text" name="pwd" />
+    <input type="submit" class="sub" value="登录"/>
+   </form>
+   <a class="sub" href="register">注册</a>
+{%endblock%}

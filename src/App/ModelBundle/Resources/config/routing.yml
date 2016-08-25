@@ -1,0 +1,5 @@
+
+app_model_homepage:
+    path:     /model
+    defaults: {_controller: ModelBundle:Default:index }
+

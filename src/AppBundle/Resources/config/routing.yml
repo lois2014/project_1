@@ -1,0 +1,19 @@
+app_lucky_homepage:
+    path:     /lucky
+    defaults: { _controller: AppBundle:Lucky:index }
+
+app_lucky_test1page:
+    path:     /lucky/test1/{page}
+    defaults: { _controller: AppBundle:Lucky:test1 }
+
+app_lucky_test2page:
+    path:     /lucky/test2
+    defaults: { _controller: AppBundle:Lucky:test2 }
+
+app_lucky_test3page:
+    path:     /lucky/test3
+    defaults: { _controller: AppBundle:Lucky:test3 }
+
+app_lucky_test4page:
+    path:     /lucky/test4
+    defaults: { _controller: AppBundle:Lucky:test4 }

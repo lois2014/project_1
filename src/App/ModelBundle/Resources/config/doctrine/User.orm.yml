@@ -1,0 +1,25 @@
+App\ModelBundle\Entity\User:
+    type: entity
+    table: null
+    repositoryClass: App\ModelBundle\Repository\UserRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: 250
+        pwd:
+            type: string
+            length: 250
+        create_time:
+            type: datetime
+        update_time:
+            type: datetime
+        status:
+            type: integer
+            length: 1
+    lifecycleCallbacks: {  }

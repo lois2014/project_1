@@ -1,0 +1,14 @@
+
+
+<h1>天气</h1>
+
+{% block body %}
+    {% if info %}
+<li>城市：{{ info.city }}</li>
+    <li>温度：{{ info.temp1 }} ~ {{ info.temp2 }}</li>
+    <li>天气：{{ info.weather }}</li>
+    <li>时间：{{ info.ptime }}</li>
+        {% else %} 无记录
+        {% endif %}
+
+{% endblock %}

@@ -1,0 +1,25 @@
+App\ModelBundle\Entity\Attach:
+    type: entity
+    table: null
+    repositoryClass: App\ModelBundle\Repository\AttachRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 250
+        path:
+            type: text
+        uid:
+            type: integer
+            length: 11
+        create_time:
+            type: datetime
+        status:
+            type: integer
+            length: 1
+    lifecycleCallbacks: {  }

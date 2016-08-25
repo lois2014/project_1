@@ -1,0 +1,15 @@
+app_web:
+    resource: "@WebBundle/Resources/config/routing.yml"
+
+app_user:
+       resource: "@UserBundle/Resources/config/routing.yml"
+
+app_admin:
+       resource: "@AdminBundle/Resources/config/routing.yml"
+
+app_system:
+      resource: "@SystemBundle/Resources/config/routing.yml"
+# app:
+#     resource: "@AppBundle/Controller/"
+#     type:     annotation
+
